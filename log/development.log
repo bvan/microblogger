@@ -29,3 +29,15 @@ Processing PagesController#contact (for 127.0.0.1 at 2010-06-14 19:47:56) [GET]
 Rendering template within layouts/application
 Rendering pages/contact
 Completed in 16ms (View: 12, DB: 0) | 200 OK [http://localhost/pages/contact]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-06-14 20:19:58) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 40ms (View: 36, DB: 0) | 200 OK [http://localhost/pages/contact]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-14 20:20:04) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 19ms (View: 15, DB: 0) | 200 OK [http://localhost/pages/home]
