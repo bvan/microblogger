@@ -1,2 +1,2 @@
 rails --version 2.3.8
-sqlite --version 3.6.12
+sqlite3 --version 3.6.12
