@@ -1,0 +1,31 @@
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2010-06-14 19:35:28) [GET]
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+Completed in 73ms (View: 8, DB: 1) | 200 OK [http://localhost/rails/info/properties]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-14 19:38:48) [GET]
+Rendering pages/home
+Completed in 180ms (View: 176, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-14 19:47:44) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 36ms (View: 32, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-06-14 19:47:52) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 16ms (View: 12, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-06-14 19:47:56) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 16ms (View: 12, DB: 0) | 200 OK [http://localhost/pages/contact]
